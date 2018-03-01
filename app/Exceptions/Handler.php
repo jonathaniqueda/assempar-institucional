@@ -4,6 +4,7 @@ namespace App\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Request;
 
 class Handler extends ExceptionHandler
 {
@@ -52,7 +53,11 @@ class Handler extends ExceptionHandler
             switch (intval($exception->getStatusCode())) {
                 case 404:
                 default:
-                    return redirect()->route('index');
+                    if (str_contains(Request::url(), '/s/')) {
+                        return redirect('/', 301);
+                    } else {
+                        return parent::render($request, $exception);
+                    }
             }
         } else {
             return parent::render($request, $exception);
