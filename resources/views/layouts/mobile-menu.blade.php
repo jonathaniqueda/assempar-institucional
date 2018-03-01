@@ -5,10 +5,21 @@
     <div>
         <div>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="{{ \Request::route()->getName() === 'index' ? 'active' : '' }}">
+                    <a href="{{ route('index') }}">Início</a>
+                </li>
+
+                <li class="{{ \Request::route()->getName() === 'about' ? 'active' : '' }}">
+                    <a href="{{ route('about') }}">Sobre Nós</a>
+                </li>
+
+                <li class="{{ str_contains(\Request::route()->getName(), 'forms') ? 'active' : '' }}">
+                    <a href="{{ route('forms') }}">Formulários</a>
+                </li>
+
+                <li class="{{ \Request::route()->getName() === 'contact' ? 'active' : '' }}">
+                    <a href="{{ route('contact') }}">Contato</a>
+                </li>
             </ul>
         </div>
     </div>

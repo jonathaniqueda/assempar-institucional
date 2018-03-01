@@ -1452,8 +1452,9 @@ service-icon-style
         min-height: inherit;
     }
 
-    .margin-header-mobile {
-        margin-bottom: 60px;
+    .single-page-title h2 {
+        font-size: 45px;
+        margin-top: 30px;
     }
 }
 
