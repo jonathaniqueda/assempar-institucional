@@ -1,0 +1,38 @@
+<?php
+
+namespace App\Mail;
+
+use Illuminate\Bus\Queueable;
+use Illuminate\Mail\Mailable;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldQueue;
+
+class ContactEmail extends Mailable
+{
+    use Queueable, SerializesModels;
+
+    protected $data;
+
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
+    public function __construct(array $data)
+    {
+        $this->data = $data;
+    }
+
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
+    {
+        return $this->subject('[Assempar] Nova mensagem de contato')
+            ->to('assempar@assempar.com.br', 'Contato Assempar')
+            ->from($this->data['email'], $this->data['name'])
+            ->view('email.contact', ['data' => $this->data]);
+    }
+}

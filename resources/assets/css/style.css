@@ -655,8 +655,9 @@ Shortcode Content
 }
 
 .hero-slide .carousel-caption p {
-    font-size: 20px;
+    font-size: 26px;
     color: #ffffff;
+    line-height: 40px;
     font-weight: normal;
 }
 
@@ -903,9 +904,9 @@ Team
 
     /* gradient: #0c0fce+0,e000e0+100 */
     background: #0c0fce; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #0c0fce 0%, #e000e0 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #0c0fce 0%, #e000e0 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #0c0fce 0%, #e000e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(-45deg, #23527c 0%, #31aae2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #23527c 0%, #31aae2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #23527c 0%, #31aae2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0c0fce', endColorstr='#e000e0', GradientType=1); /* IE6-9 fallback on horizontal gradient */
 
 }
@@ -1576,4 +1577,39 @@ service-icon-style
     margin: 0;
     text-align: center;
     top: 65%;
+}
+
+.single_price_plan {
+    background-color: #f6f6f6;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.royal-btn {
+    background: #31aae2 none repeat scroll 0 0;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+    min-width: 150px;
+    padding: 10px 30px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+.royal-btn:hover, .royal-btn:focus {
+    color: #fff;
+    background-color: #08cde2;
+}
+
+.big-p {
+    font-size: 18px
+}
+
+.big-h2 {
+    font-size: 24px
 }

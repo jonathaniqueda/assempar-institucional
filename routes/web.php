@@ -13,5 +13,5 @@
 
 Route::get('/', 'HomeController@index')->name('index');
 Route::get('/sobre-nos', 'AboutController@index')->name('about');
-Route::get('/formularios', 'FormsController@index')->name('forms');
+Route::get('/formularios/{name?}', 'FormsController@index')->name('forms');
 Route::match(['get', 'post'], '/contato', 'ContactController@index')->name('contact');

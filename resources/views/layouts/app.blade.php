@@ -40,7 +40,10 @@
     <div class="uc-mobile-menu-pusher">
         <div class="content-wrapper">
             @include('layouts.header')
-            @include('components.carousel')
+
+            @if(\Request::route()->getName() === 'index')
+                @include('components.carousel')
+            @endif
 
             @yield('content')
 
@@ -56,9 +59,11 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
         integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
+<script src="{{ asset('js/jquery.mask.min.js') }}"></script>
 <script src="{{ asset('js/smoothscroll.js') }}"></script>
 <script src="{{ asset('js/mobile-menu.js') }}"></script>
 <script src="{{ asset('js/flexSlider/jquery.flexslider-min.js') }}"></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyAOBKD6V47-g_3opmidcmFapb3kSNAR70U"></script>
 <script src="{{ asset('js/scripts.js') }}"></script>
 </body>
 </html>

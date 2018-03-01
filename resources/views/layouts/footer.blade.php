@@ -9,37 +9,37 @@
                         <div class="footer-logo">
                             <a href="#"><img src="img/logo.png" alt=""></a>
                         </div>
-                        <p>Continually matrix cross functional opportunities whereas ethical information. Compellingly
-                            streamline enabled human capital before resource-leveling internal or "organic".</p>
+                        <p>
+                            Continually matrix cross functional opportunities whereas ethical information. Compellingly
+                            streamline enabled human capital before resource-leveling internal or "organic".
+                        </p>
 
                     </div>
                 </div><!-- /.col-sm-4 -->
 
                 <div class="col-sm-4 footer-block">
                     <div class="footer-widget widget_text">
-                        <h3>We work for your profit</h3>
-                        <p>Distinctively expedite viral materials rather than out-of-the-box solutions. Credibly empower
-                            revolutionary ROI rather than unique products. Collaboratively maximize principle-centered
-                            ideas before highly efficient data. Phosfluorescently.</p>
+                        <h3>Somos especializados</h3>
+                        <p>
+                            Há mais de XX anos no mercado,
+                            nós somos especializados em assessoria cadastral e com certeza iremos
+                            oferecer a melhor do nosso serviço a você e a sua empresa.
+                            <a href="{{ route('contact') }}">Entre em contato</a> agora mesmo.
+                        </p>
                     </div>
                 </div><!-- /.col-sm-4 -->
 
                 <div class="col-sm-4 footer-block last">
                     <div class="footer-widget widget_text">
-                        <h3>Contact Us Today</h3>
+                        <h3>Entre em contato hoje mesmo</h3>
                         <address>
-                            Call Us 666 777 888 OR 111 222 333<br>
-                            Send an Email on <a href="mailto:#">contact@domain.com</a><br>
-                            Visit Us 123 Fake Street- Blla 12358<br>
-                            Fake Kingdom<br>
+                            Telefones: (21) 2210-1261 | 3553-1380<br>
+                            Nos envie um e-mail <a
+                                    href="mailto:assempar@assempar.com.br">assempar@assempar.com.br</a><br>
+                            Edifício Cinelândia - R. Sen. Dantas, 19<br/>
+                            Sala 509 - Centro, Rio de Janeiro - RJ<br>
+                            CEP: 20031-202<br>
                         </address>
-
-                        <ul class="list-inline social-links">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
                     </div>
                 </div><!-- /.col-sm-4 -->
             </div>
@@ -59,12 +59,21 @@
             </span>
 
             <ul class="list-inline pull-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="{{ \Request::route()->getName() === 'index' ? 'active' : '' }}">
+                    <a href="{{ route('index') }}">Início</a>
+                </li>
+
+                <li class="{{ \Request::route()->getName() === 'about' ? 'active' : '' }}">
+                    <a href="{{ route('about') }}">Sobre Nós</a>
+                </li>
+
+                <li class="{{ str_contains(\Request::route()->getName(), 'forms') ? 'active' : '' }}">
+                    <a href="{{ route('forms') }}">Formulários</a>
+                </li>
+
+                <li class="{{ \Request::route()->getName() === 'contact' ? 'active' : '' }}">
+                    <a href="{{ route('contact') }}">Contato</a>
+                </li>
             </ul>
         </div><!-- .container -->
     </div><!-- .copyright-section -->
