@@ -1,29 +1,21 @@
 <section class="client-logo ptb-100">
     <section class="section-title">
         <div class="container text-center">
-            <h2>Our Clients</h2>
+            <h2>Cerfiticados</h2>
             <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
         </div>
     </section>
     <div class="container">
         <div class="row">
-            <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
-                <a href="#"><img src="img/logo-client-1.jpg" alt="Image"></a>
+            <div class="col-md-2 col-md-offset-3 col-sm-6 section-margin">
+                <a href="http://www.abadi.com.br/" target="_blank">
+                    <img src="img/abadi.png" alt="ABADI">
+                </a>
             </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
-                <a href="#"><img src="img/logo-client-2.jpg" alt="Image"></a>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
-                <a href="#"><img src="img/logo-client-3.jpg" alt="Image"></a>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
-                <a href="#"><img src="img/logo-client-4.jpg" alt="Image"></a>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
-                <a href="#"><img src="img/logo-client-5.jpg" alt="Image"></a>
-            </div>
-            <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
-                <a href="#"><img src="img/logo-client-6.jpg" alt="Image"></a>
+            <div class="col-md-2 col-md-offset-3 col-sm-6 section-margin">
+                <a href="https://abami.org.br/" target="_blank">
+                    <img src="img/abami.png" alt="ABAMI">
+                </a>
             </div>
         </div>
     </div>

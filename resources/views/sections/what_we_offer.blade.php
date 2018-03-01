@@ -2,7 +2,7 @@
 
     <section class="section-title">
         <div class="container text-center">
-            <h2>What We Offer</h2>
+            <h2>O Que Nós Oferecemos</h2>
             <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
         </div>
     </section>
@@ -11,25 +11,29 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="thumbnail clearfix">
-                    <a href="#"><img class="img-responsive" src="img/img-offer-1.jpg" alt="Image"></a>
+                    <a href="#"><img class="img-responsive" src="img/img-offer-2.jpg" alt="Pesquisa restritiva"></a>
 
                     <div class="caption">
-                        <h3><a href="#">Investment</a></h3>
+                        <h3><a href="#">Pesquisas Restritivas Simples</a></h3>
 
-                        <p>Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat
-                            tellus odio malesuada ex.</p>
+                        <p>
+                            A pesquisa restritiva simples consiste deu ma pesquisa creditícia, tribunal de justiça,
+                            negativações no comércio (SPC e Serasa), entre outras informações.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="thumbnail clearfix">
-                    <a href="#"><img class="img-responsive" src="img/img-offer-2.jpg" alt="Image"></a>
+                    <a href="#"><img class="img-responsive" src="img/img-offer-1.jpg" alt="Pesquisa completa"></a>
 
                     <div class="caption">
-                        <h3><a href="#">Planning</a></h3>
+                        <h3><a href="#">Pesquisas Restritivas Completas</a></h3>
 
-                        <p>Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat
-                            tellus odio malesuada ex.</p>
+                        <p>
+                            A pesquisa restritiva completa possui tudo que a simples tem com analise em mais alguns
+                            orgãos.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -41,22 +45,25 @@
                     <a href="#"><img class="img-responsive" src="img/img-offer-3.jpg" alt="Image"></a>
 
                     <div class="caption">
-                        <h3><a href="#">Analysis</a></h3>
+                        <h3><a href="#">Atendimento Personalizado</a></h3>
 
-                        <p>Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat
-                            tellus odio malesuada ex.</p>
+                        <p>
+                            Atendimento customizado feito pelos nossos consultores de segunda à sexta-feira.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="thumbnail clearfix">
-                    <a href="#"><img class="img-responsive" src="img/img-offer-4.jpg" alt="Image"></a>
+                    <a href="#"><img class="img-responsive" src="img/img-offer-4.jpg" alt="Image"
+                                     style="height: 190px;width: auto;"></a>
 
                     <div class="caption">
-                        <h3><a href="#">Banking</a></h3>
+                        <h3><a href="#">Rápida entrega</a></h3>
 
-                        <p>Praesent dapibus eleifend aug eget sollicitudin velit malesuada Aliquam blandit diam feugiat
-                            tellus odio malesuada ex.</p>
+                        <p>
+                            Obtenha a análise solicitada em poucas horas após o pedido ter sido finalizado.
+                        </p>
                     </div>
                 </div>
             </div>

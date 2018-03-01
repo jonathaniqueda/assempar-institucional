@@ -1613,3 +1613,9 @@ service-icon-style
 .big-h2 {
     font-size: 24px
 }
+
+.logo-text {
+    padding: 8px;
+    color: #fff;
+    font-size: 25px;
+}

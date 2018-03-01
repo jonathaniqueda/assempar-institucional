@@ -6,14 +6,10 @@
             <div class="row">
                 <div class="col-sm-4 footer-block">
                     <div class="footer-widget widget_text">
-                        <div class="footer-logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
+                        <h3>ASSEMPAR <br/>Assesoria Cadastral LTDA</h3>
                         <p>
-                            Continually matrix cross functional opportunities whereas ethical information. Compellingly
-                            streamline enabled human capital before resource-leveling internal or "organic".
+                            A ASSEMPAR é uma empresa de Assesoria Cadastral com mais de 40 anos de mercado.
                         </p>
-
                     </div>
                 </div><!-- /.col-sm-4 -->
 
@@ -21,7 +17,7 @@
                     <div class="footer-widget widget_text">
                         <h3>Somos especializados</h3>
                         <p>
-                            Há mais de XX anos no mercado,
+                            Há mais de 40 anos no mercado,
                             nós somos especializados em assessoria cadastral e com certeza iremos
                             oferecer a melhor do nosso serviço a você e a sua empresa.
                             <a href="{{ route('contact') }}">Entre em contato</a> agora mesmo.

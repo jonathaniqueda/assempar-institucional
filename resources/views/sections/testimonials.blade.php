@@ -13,51 +13,27 @@
                 <div class="item active">
                     <blockquote>
                         <ul>
-                            <li><img src="img/img-testimonial-1.jpg" class="img-responsive" alt=""/></li>
-                            <li class="name">Justus Kühn</li>
+                            <li class="name">Jonathan Iqueda (Cliente)</li>
                         </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egetvel </br>lacus
-                            pretium rhoncus a quis nisly Ut vehicula gravida dui in pulvinar donec</br> diam elit
-                            consequat eget augue vitae aliquet sollicitudin.
+                        <p>
+                            Quando o assunto é assessoria completa no momento da locação, só me vem em mente a ASSEMPAR.
+                        </p>
+                        <p>
+                            Pra mim desde o atendimento até a finalização do pedido, eles são o que há de melhor no
+                            mercado. Recomendo fortemente!
                         </p>
 
-                    </blockquote>
-                </div>
-                <div class="item">
-                    <blockquote>
-                        <ul>
-                            <li><img src="img/img-testimonial-2.jpg" class=" img-responsive" alt=""/></li>
-                            <li class="name">Lennox Arnold</li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egetvel </br>lacus
-                            pretium rhoncus a quis nisly Ut vehicula gravida dui in pulvinar donec</br> diam elit
-                            consequat eget augue vitae aliquet sollicitudin.
-                        </p>
-
-                    </blockquote>
-                </div>
-                <div class="item">
-                    <blockquote>
-                        <ul>
-                            <li><img src="img/img-testimonial-3.jpg" class="img-responsive" alt=""/></li>
-                            <li class="name">Paulina Berger</li>
-                        </ul>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egetvel </br>lacus
-                            pretium rhoncus a quis nisly Ut vehicula gravida dui in pulvinar donec</br> diam elit
-                            consequat eget augue vitae aliquet sollicitudin.
-                        </p>
                     </blockquote>
                 </div>
             </div>
             <!-- Controls -->
             <a class="left carousel-control" href="#testimonialSlider" role="button" data-slide="prev">
                 <span><i class="fa fa-angle-left"></i></span>
-                <span class="sr-only">Previous</span>
+                <span class="sr-only">Anterior</span>
             </a>
             <a class="right carousel-control" href="#testimonialSlider" role="button" data-slide="next">
                 <span><i class="fa fa-angle-right"></i></span>
-                <span class="sr-only">Next</span>
+                <span class="sr-only">Próximo</span>
             </a>
         </div>
         <!-- #testimonialSlider -->

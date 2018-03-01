@@ -1,7 +1,7 @@
 <section class="x-features">
     <section class="section-title">
         <div class="container text-center">
-            <h2>Our Capabilities</h2>
+            <h2>Nossas capacidades</h2>
             <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
         </div>
     </section>
@@ -16,10 +16,11 @@
                         <i class="fa fa-line-chart"></i>
                     </div>
                     <div class="promo-content">
-                        <h3>We teach you how to improve your business</h3>
+                        <h3>Análises de alta performance</h3>
 
-                        <p>Lorem ipsum dolor sit consectetuer adipiscing elit nonummy ib uismod tincidunt ut laoreet
-                            dolore magna aliquam erat volutpat.</p>
+                        <p>
+                            Procuramos extrair as informações mais confiáveis da pessoa em análise.
+                        </p>
                     </div>
                 </div>
                 <!-- /.promo-block-wrapper -->
@@ -29,10 +30,12 @@
                         <i class="fa fa-life-ring"></i>
                     </div>
                     <div class="promo-content">
-                        <h3>We make the technology affordable for you</h3>
+                        <h3>Olhar 360 graus</h3>
 
-                        <p>Lorem ipsum dolor sit consectetuer adipiscing elit nonummy ib uismod tincidunt ut laoreet
-                            dolore magna aliquam erat volutpat.</p>
+                        <p>
+                            Focamos em pesquisas que extraem informações específicas e corretas para diminuir as suas
+                            taxas de erros.
+                        </p>
                     </div>
                 </div>
                 <!-- /.promo-block-wrapper -->
@@ -42,10 +45,11 @@
                         <i class="fa fa-calculator"></i>
                     </div>
                     <div class="promo-content last-type">
-                        <h3>Seamlessly grow wireless human capital before turnkey.</h3>
+                        <h3>Preços altamente competitivos</h3>
 
-                        <p>Lorem ipsum dolor sit consectetuer adipiscing elit nonummy ib uismod tincidunt ut laoreet
-                            dolore magna aliquam erat volutpat.</p>
+                        <p>
+                            Nosso objetivo é ter o melhor preço do mercado com a mais ágil e fiel entrega.
+                        </p>
                     </div>
                 </div>
                 <!-- /.promo-block-wrapper -->

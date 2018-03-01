@@ -30,13 +30,56 @@
 
         <div class="container">
             <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single_price_plan">
+                        <div class="price">
+                            <h2>Formulário fiador</h2>
+                        </div>
+                        <div class="buy_now">
+                            <a href="{{ route('forms', ['name' => 'formulario_fiador.doc']) }}"
+                               target="_blank" class="btn royal-btn">
+                                Fazer Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single_price_plan">
+                        <div class="price">
+                            <h2>Formulário locatário</h2>
+                        </div>
+                        <div class="buy_now">
+                            <a href="{{ route('forms', ['name' => 'formulario_locatario.doc']) }}"
+                               target="_blank" class="btn royal-btn">
+                                Fazer Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single_price_plan">
+                        <div class="price">
+                            <h2>Pesquisa Restritiva</h2>
+                        </div>
+                        <div class="buy_now">
+                            <a href="{{ route('forms', ['name' => 'formulario_minf.doc']) }}"
+                               target="_blank" class="btn royal-btn">
+                                Fazer Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-xs-12 col-sm-6">
                     <div class="single_price_plan">
                         <div class="price">
-                            <h2>Pesquisa restritiva do fiador</h2>
+                            <h2>Ficha de Emprego</h2>
                         </div>
                         <div class="buy_now">
-                            <a href="{{ route('forms', ['name' => 'form_one']) }}"
+                            <a href="{{ route('forms', ['name' => 'formulario_emprego.doc']) }}"
                                target="_blank" class="btn royal-btn">
                                 Fazer Download
                             </a>
@@ -47,15 +90,55 @@
                 <div class="col-xs-12 col-sm-6">
                     <div class="single_price_plan">
                         <div class="price">
-                            <h2>Pesquisa restritiva do locatário</h2>
+                            <h2>Formulário de Pessoa Jurídica</h2>
                         </div>
                         <div class="buy_now">
-                            <a href="{{ route('forms', ['name' => 'form_two']) }}"
+                            <a href="{{ route('forms', ['name' => 'formulario_pj.doc']) }}"
                                target="_blank" class="btn royal-btn">
                                 Fazer Download
                             </a>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="single_price_plan">
+                        <div class="price">
+                            <h2>Modelo Proposta de locação</h2>
+                        </div>
+                        <div class="buy_now">
+                            <a href="{{ route('forms', ['name' => 'proposta_de_locacao.doc']) }}"
+                               target="_blank" class="btn royal-btn">
+                                Fazer Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">
+                    <div class="single_price_plan">
+                        <div class="price">
+                            <h2>Documentos para Comprovar Renda</h2>
+                        </div>
+                        <div class="buy_now">
+                            <a href="{{ route('forms', ['name' => 'comprovante_de_renda.docx']) }}"
+                               target="_blank" class="btn royal-btn">
+                                Fazer Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="big-p">
+                        Se ficou alguma dúvida, não hesite em entrar em contato conosco <a
+                                href="{{ route('contact') }}">clicando aqui.</a>
+                    </p>
                 </div>
             </div>
         </div>

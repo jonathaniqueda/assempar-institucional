@@ -11,7 +11,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="{{ route('index') }}">
-                    <img src="{{ asset('/img/logo.png') }}" alt="Logo - Assempar">
+                    <h1 class="logo-text">ASSEMPAR</h1>
+                    {{--<img src="{{ asset('/img/logo.png') }}" alt="Logo - Assempar" style="height: 40px; width: auto;">--}}
                 </a>
             </div>
 

@@ -20,25 +20,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>
-                        Appropriately benchmark bricks-and-clicks e-business before parallel communities. Completely
-                        synergize exceptional outsourcing with principle-centered platforms. Credibly unleash
-                        synergistic
-                        internal or "organic" sources without functionalized technology. Objectively brand granular
-                        human
-                        capital without goal-oriented e-business. Competently predominate multifunctional web-readiness
-                        via
-                        state of the art strategic theme areas.
+                    <p class="big-p">
+                        A ASSEMPAR é uma empresa de Assessoria especializada em Análises Cadastrais de pretendentes
+                        a Locação de Imóveis e seus Fiadores, Aprovação de Créditos, Admissão de Funcionários e
+                        Serviços de Certidões, fundada em 01/02/1972.
                     </p>
                 </div>
                 <div class="col-md-6">
-                    <p>Completely pontificate timely metrics rather than accurate growth strategies. Seamlessly impact
-                        premium communities whereas real-time networks. Professionally transform high-payoff
-                        collaboration
-                        and idea-sharing before resource maximizing supply chains. Energistically evisculate timely
-                        manufactured products for resource-leveling ROI. Assertively create client-focused vortals
-                        whereas
-                        functional potentialities.</p>
+                    <p class="big-p">
+                        Seja nosso CLIENTE CADASTRADO, se sua empresa ou instituição utiliza frequentemente pesquisas
+                        cadastrais para venda, locação, emprego e outras finalidades, torne-se nosso cliente cadastrado
+                        e obtenha condições especiais de atendimento e pagamento.
+
+                        <a href="{{ route('contact') }}">Entre em contato</a> e aguarde o contato da nossa equipe
+                        comercial.
+                    </p>
                 </div>
             </div>
         </div>

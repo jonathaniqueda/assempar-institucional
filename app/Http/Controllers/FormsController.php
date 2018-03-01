@@ -10,7 +10,7 @@ class FormsController extends Controller
             return view('forms');
         }
 
-        $file = public_path('forms/' . $name . '.doc');
+        $file = public_path('forms/' . $name);
 
         if (!\File::exists($file)) {
             abort(404);
