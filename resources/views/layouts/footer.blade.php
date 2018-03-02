@@ -8,7 +8,7 @@
                     <div class="footer-widget widget_text">
                         <h3>ASSEMPAR <br/>Assesoria Cadastral LTDA</h3>
                         <p>
-                            A ASSEMPAR é uma empresa de Assesoria Cadastral com mais de 40 anos de mercado.
+                            A ASSEMPAR é uma empresa de Assessoria Cadastral com mais de 40 anos de mercado.
                         </p>
                     </div>
                 </div><!-- /.col-sm-4 -->
@@ -30,10 +30,14 @@
                         <h3>Entre em contato hoje mesmo</h3>
                         <address>
                             Telefones: (21) 2210-1261 | 3553-1380<br>
-                            Nos envie um e-mail <a
-                                    href="mailto:assempar@assempar.com.br">assempar@assempar.com.br</a><br>
+                            Nos envie um e-mail <a href="mailto:assempar@assempar.com.br">
+                                assempar@assempar.com.br
+                            </a> ou <a href="mailto:assempar@assempar.com.br">
+                                assempar@outlook.com
+                            </a>
+                            <br>
                             Edifício Cinelândia - R. Sen. Dantas, 19<br/>
-                            Sala 509 - Centro, Rio de Janeiro - RJ<br>
+                            Sala 510 - Centro, Rio de Janeiro - RJ<br>
                             CEP: 20031-202<br>
                         </address>
                     </div>

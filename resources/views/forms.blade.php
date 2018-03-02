@@ -73,7 +73,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12 col-sm-4">
                     <div class="single_price_plan">
                         <div class="price">
                             <h2>Ficha de Emprego</h2>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12 col-sm-4">
                     <div class="single_price_plan">
                         <div class="price">
                             <h2>Formulário de Pessoa Jurídica</h2>
@@ -100,26 +100,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                    <div class="single_price_plan">
-                        <div class="price">
-                            <h2>Modelo Proposta de locação</h2>
-                        </div>
-                        <div class="buy_now">
-                            <a href="{{ route('forms', ['name' => 'proposta_de_locacao.doc']) }}"
-                               target="_blank" class="btn royal-btn">
-                                Fazer Download
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12 col-sm-4">
                     <div class="single_price_plan">
                         <div class="price">
-                            <h2>Documentos para Comprovar Renda</h2>
+                            <h2 style="font-size: 20px">Documentos para Comprovar Renda</h2>
                         </div>
                         <div class="buy_now">
                             <a href="{{ route('forms', ['name' => 'comprovante_de_renda.docx']) }}"

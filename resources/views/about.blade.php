@@ -21,9 +21,9 @@
             <div class="row">
                 <div class="col-md-6">
                     <p class="big-p">
-                        A ASSEMPAR é uma empresa de Assessoria especializada em Análises Cadastrais de pretendentes
-                        a Locação de Imóveis e seus Fiadores, Aprovação de Créditos, Admissão de Funcionários e
-                        Serviços de Certidões, fundada em 01/02/1972.
+                        A ASSEMPAR é uma empresa de Assessoria especializada em Análises Cadastrais de pretendentes a
+                        Locação de Imóveis e seus Fiadores, Aprovação de Créditos, Admissão de Funcionários e Serviços
+                        de Certidões, fundada em 01/02/1972.
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -32,8 +32,8 @@
                         cadastrais para venda, locação, emprego e outras finalidades, torne-se nosso cliente cadastrado
                         e obtenha condições especiais de atendimento e pagamento.
 
-                        <a href="{{ route('contact') }}">Entre em contato</a> e aguarde o contato da nossa equipe
-                        comercial.
+                        <a href="{{ route('contact') }}">Entre em contato</a> que nossa equipe comercial irá lhe
+                        atender.
                     </p>
                 </div>
             </div>
@@ -43,6 +43,27 @@
     <!-- .about-text-->
 
     <section class="skills ptb-100 gray-bg">
+        <section class="section-title">
+            <div class="container text-center">
+                <h2>Nossa Missão</h2>
+                <span class="bordered-icon"><i class="fa fa-circle-thin"></i></span>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="big-p">
+                        Atender às expectativas dos clientes nas suas necessidades com AGILIDADE, QUALIDADE e EXATIDÃO
+                        NAS INFORMAÇÕES, através de uma equipe bem preparada que entende e gosta do que faz!!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="skills ptb-100">
         <section class="section-title">
             <div class="container text-center">
                 <h2>O que realizamos</h2>
@@ -56,9 +77,9 @@
                     <h3 class="big-h2">Serviço voltado a você, cliente.</h3>
 
                     <p class="big-p">
-                        Nós oferecemos tudo que você precisa em um só lugar, com uma solução completa.
-                        Somos focados na realização de analise e assesoria cadastral para agilizar e facilitar o
-                        dia-a-dia em momentos únicos, como na locação de um novo imóvel.
+                        Nós oferecemos tudo que você precisa em um só lugar, com uma solução completa. Somos focados na
+                        realização de análise e assessoria cadastral para agilizar e facilitar o dia-a-dia em momentos
+                        únicos, como na locação de um novo imóvel.
                     </p>
 
                     <p class="big-p">
