@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-sm-4 footer-block">
                     <div class="footer-widget widget_text">
-                        <h3>ASSEMPAR <br/>Assesoria Cadastral LTDA</h3>
+                        <h3>ASSEMPAR <br/>Assessoria Cadastral LTDA</h3>
                         <p>
                             A ASSEMPAR é uma empresa de Assessoria Cadastral com mais de 40 anos de mercado.
                         </p>
