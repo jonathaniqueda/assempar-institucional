@@ -46,6 +46,28 @@
     <![endif]-->
 </head>
 <body>
+
+<div class="modal" tabindex="-1" role="dialog" id="myModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Aviso</h5>
+            </div>
+            <div class="modal-body">
+                <p>Até novos posicionamentos de nossas autoridades, o atendimento ao público será por <strong>e-mail</strong> e <strong>whatsapp</strong>.</p>
+                <p>WhatsApp: (21) 97250-4063</p>
+                <p>Site: <a href="http://www.assempar.com.br">http://www.assempar.com.br</a></p>
+                <p>E-mail: <a href="mailto:assempar@assempar.com.br">assempar@assempar.com.br</a> | <a href="mailto:assempar@outlook.com">assempar@outlook.com</a></p>
+                <p>No momento, o melhor é praticar o distanciamento social e ficar em casa.</p>
+                <p>A <strong>ASSEMPAR</strong> está trabalhando <strong>HOME OFFICE</strong>.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="main-wrapper">
 
     <!-- Page Preloader -->
@@ -83,5 +105,10 @@
 <script src="{{ asset('js/flexSlider/jquery.flexslider-min.js') }}"></script>
 <script src="https://maps.google.com/maps/api/js?key=AIzaSyAOBKD6V47-g_3opmidcmFapb3kSNAR70U"></script>
 <script src="{{ asset('js/scripts.js') }}"></script>
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#myModal').modal('show');
+    });
+</script>
 </body>
 </html>
